@@ -30,3 +30,4 @@ override.tf.json
 
 # פאיכ terraform.rc
 terraform.rc
+New Line
