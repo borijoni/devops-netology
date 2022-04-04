@@ -91,7 +91,7 @@ with open(host_yaml, 'w') as ym:
 drive.google.com 172.217.18.110
 mail.google.com 142.250.185.69
 ERROR google.com IP mismatch:142.20.184.238 142.250.184.238
-
+```
 
 ### json-файл(ы), который(е) записал ваш скрипт:
 ```json
