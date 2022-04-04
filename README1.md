@@ -61,7 +61,7 @@ if os.path.exists(host_json)==False:
 
 if os.path.exists(host_yaml)==False:
     with open(host_yaml, 'w') as ym:
-        yaml.dump(servers, ym, indent=4)
+        yaml.dump(servers, ym, indent=2)
 
 with open(host_json) as js:
     js_dict=json.load(js)
@@ -75,7 +75,7 @@ with open(host_json, 'w') as js:
     json.dump(servers, js, indent=2)
 
 with open(host_yaml, 'w') as ym:
-    yaml.dump(servers, ym, indent=4)
+    yaml.dump(servers, ym, indent=2)
 
 
 ```
