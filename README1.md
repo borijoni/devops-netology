@@ -98,7 +98,7 @@ ERROR google.com IP mismatch:142.20.184.238 142.250.184.238
 {
   "drive.google.com": "172.217.18.110",
   "mail.google.com": "142.250.185.69",
-  "google.com": "142.20.184.238"
+  "google.com": "142.250.184.238"
 }
 
 
