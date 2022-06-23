@@ -62,14 +62,14 @@ GRANT SELECT, INSERT, UPDATE, DELETE ON orders, clients TO "test-simple-user";
 
 Ответ:
 <p align="center">
-  <img width="1200" height="600" src="./img/BD.jpg">
+  <img src="./img/BD.jpg">
 </p>
 
 - описание таблиц (describe)
 
 Ответ:
 <p align="center">
-  <img width="1200" height="600" src="./img/describe.jpg">
+  <img src="./img/describe.jpg">
 </p>
 
 - SQL-запрос для выдачи списка пользователей с правами над таблицами test_db
@@ -83,8 +83,8 @@ SELECT * FROM information_schema.table_privileges where grantee in ('test-simple
 
 Ответ:
 <p align="center">
-  <img width="1200" height="600" src="./img/test-admin-user.jpg">
-  <img width="1200" height="600" src="./img/test-simple-user.jpg">
+  <img src="./img/test-admin-user.jpg">
+  <img src="./img/test-simple-user.jpg">
 </p>
 
 ## Задача 3
@@ -130,8 +130,8 @@ SELECT COUNT (*) FROM clients;
 ```
 Ответ:
 <p align="center">
-  <img width="1200" height="600" src="./img/count.jpg">
-  <img width="1200" height="600" src="./img/count.jpg">
+  <img src="./img/count.jpg">
+  <img src="./img/count.jpg">
 </p>
 
 ## Задача 4
@@ -160,7 +160,7 @@ SELECT * FROM clients WHERE zakaz IS NOT null;
 ```
 
 <p align="center">
-  <img width="1200" height="600" src="./img/pay.jpg">
+  <img src="./img/pay.jpg">
 </p>
 
 Подсказк - используйте директиву `UPDATE`.
@@ -177,7 +177,7 @@ EXPLAIN SELECT * FROM clients WHERE zakaz IS NOT null;
 Приведите получившийся результат и объясните что значат полученные значения.
 
 <p align="center">
-  <img width="1200" height="600" src="./img/explain.jpg">
+  <img src="./img/explain.jpg">
 </p>
 
 ```
