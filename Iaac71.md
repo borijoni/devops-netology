@@ -92,6 +92,6 @@ Ansible, Terraform, Packer, Docker
 ```
 Ответ на 2 и 3 задачи:
 ```
-<p align="center">
+<p align="left">
   <img src="./terraform.jpg">
 </p>
