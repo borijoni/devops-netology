@@ -93,5 +93,5 @@ Ansible, Terraform, Packer, Docker
 Ответ на 2 и 3 задачи:
 ```
 <p align="center">
-  <img width="1200" height="600" src="./terraform.jpg">
+  <img src="./terraform.jpg">
 </p>
